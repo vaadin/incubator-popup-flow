@@ -38,8 +38,6 @@ import java.util.Objects;
 @HtmlImport("flow-component-renderer.html")
 @HtmlImport("frontend://bower_components/incubator-popup/src/incubator-popup.html")
 public class Popup extends PolymerTemplate<Popup.PopupModel> {
-    private static Logger log = LoggerFactory.getLogger(Popup.class);
-
     private Element template;
     private Element container;
 

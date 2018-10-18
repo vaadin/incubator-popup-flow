@@ -6,13 +6,13 @@
     <parent>
         <groupId>com.vaadin</groupId>
         <artifactId>incubator-popup-flow-root</artifactId>
-        <version>1.0.0</version>
+        <version>1.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>incubator-popup-flow</artifactId>
     <packaging>jar</packaging>
 
-    <name>Incubator popup for Vaadin 10</name>
+    <name>Incubator Popup for Vaadin 10</name>
 
     <properties>
         <jetty.plugin.version>9.3.9.v20160517</jetty.plugin.version>
@@ -21,29 +21,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.vaadin</groupId>
-            <artifactId>flow-server</artifactId>
-            <version>${flow.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.vaadin</groupId>
-            <artifactId>flow-html-components</artifactId>
-            <version>${flow.version}</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
             <groupId>com.vaadin.webjar</groupId>
             <artifactId>incubator-popup</artifactId>
             <version>1.0.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.vaadin</groupId>
-            <artifactId>vaadin-lumo-theme</artifactId>
-            <version>1.0.0</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -92,10 +72,10 @@
                             <!-- Add-on specific fields to update -->
                             <AdVaaLicen>cval</AdVaaLicen>
                             <AdVaaName>incubator-popup</AdVaaName>
-                            <AdVaaPkg>com.vaadin.incubator.password.strength</AdVaaPkg>
+                            <AdVaaPkg>com.vaadin.incubator.popup</AdVaaPkg>
                             <!-- Implementation-Title and Implementation-Version
                                 come from the POM by default -->
-                            <Implementation-Title>Incubator popup</Implementation-Title>
+                            <Implementation-Title>Incubator Popup</Implementation-Title>
                         </manifestEntries>
                     </archive>
                 </configuration>
