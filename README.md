@@ -1,3 +1,7 @@
+# Deprecated 
+This repository has been deprecated. Please find the latest code here: 
+https://github.com/vaadin-component-factory/popup
+
 # Incubator Popup for Flow
 Incubator Popup for Flow is a server-side component of the [incubator-popup](https://github.com/vaadin/incubator-popup) web component for Vaadin 10. 
 It provides a popup that can be bound to element by id, and be opened on clicking to target element. 
